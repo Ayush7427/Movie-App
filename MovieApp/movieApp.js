@@ -31,7 +31,7 @@ function validationForm(data) {
 async function apiCall(inputData) {
     try {
         errorMessageDisplay("Fetching Movie Information.")
-        const apiKey = "efc24a0"
+        const apiKey = // Yours API Key
         const api = `http://www.omdbapi.com/?apikey=${apiKey}&t="${inputData}"`
 
         const fetchData = await fetch(api)
